@@ -1,0 +1,338 @@
+body{background-color: rgb(218,226,239);}
+.div-main{
+    width: 80%;
+    height: 600px;
+    background-color: rgb(242, 243, 248);
+    margin: auto;
+    margin-top: auto;
+    margin-top: 18px;
+    border-radius: 46px;
+    box-shadow: 1px 0.5px #f0dd409c;
+}
+.main-right{
+    float: left;
+width: 25%;
+height: 97%;
+margin-top: 8px;
+background-color: rgb(242, 243, 247);
+box-shadow: 1px 1.5px 1px 6px #e5e9ff;
+border-radius: 46px 2px 2px 46px;
+margin-left: 11px;
+}
+.img-admin{
+    width: 40px;
+height: 40px;
+border-radius: 100%;
+margin-left: 15px;
+margin-top: 15px;
+}
+h1{
+    font-size: 12px;
+    display: table-caption;
+    color: rgba(0, 0, 0, 0.493);
+}
+h2{
+    font-size: 12px;
+}
+.div-images{
+    display: ruby;
+}
+hr{
+    color: rgba(0, 0, 0, 0.301);
+}
+.div-right-main2{
+    width: 90%;
+min-height: 57%;
+background-color: rgb(242, 243, 247);
+margin: auto;
+border-radius: 45px;
+box-shadow: 1px 1px 9px 1px rgb(199, 199, 199);
+}
+.button{
+    box-shadow: 0.5px 0.5px 1px 0.5px rgba(255, 238, 0, 0.603);
+    background-color: rgb(232, 236, 255);
+    height: 38px;
+    border-radius: 24px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+
+}
+.circle-add-a-task{
+    width: 15px;
+height: 16px;
+border-radius: 100%;
+background-color: rgba(199, 199, 199, 0.472);
+display: inline-table;
+
+}
+.div-radio-and-text{
+    display: block ruby;
+margin-top: -9px;
+margin-left: 16px;
+}
+p{
+    margin-top: 13px;
+}
+.display{
+    display: table-caption;
+}
+.text-child-menu-left{
+    margin-top: -27px;
+    margin-left: 34px;
+    font-size: 11px;
+    position: absolute;
+}
+.red{
+    color: red;
+}
+.div-right-main3{
+    width: 90%;
+min-height: 10%;
+background-color: rgb(242, 243, 247);
+margin: auto;
+    margin-top: auto;
+border-radius: 45px;
+box-shadow: 1px 1px 9px 1px rgb(199, 199, 199);
+margin-top: 1rem;
+padding-top: 9px;
+}
+.image-arow-menu-left{
+    width: 13px;
+border-radius: 100%;
+float: right;
+padding-top: 7px;
+padding-right: 5px;
+   
+}
+    .circle-dive-arrow{
+        width: 24px;
+border-radius: 100%;
+box-shadow: 1px 1px 9px 1px #bfbfbf;
+float: right;
+height: 24px;
+margin-right: 29px;
+margin-top: -35px;
+background: #eee;
+    }
+
+  .margin17  {
+        margin-left: 17px;
+    }
+    .data-menu-top{
+        width: 72%;
+height: 194px;
+background-color: rgb(232, 236, 255);
+float: right;
+margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+margin-top: auto;
+border-radius: 0px 45px 45px 45px;
+margin-top: 7px;
+box-shadow: 3px 5px 15px rgba(34, 47, 113, 0.8);
+margin-right: 7px;
+
+    }
+    .div-menu-top-right{
+        width: 100%;
+        height: 30%;
+   
+    }
+    .left{
+        float: left;
+    }
+    .right{
+        float: right;
+    }
+    .center{text-align: center;}
+    .menu-top-rools-1{
+        float: left;
+        margin-left: 14px;
+        font-size: larger;
+        
+
+    }
+    .menu-top-rools-2{
+        width: 25%;
+margin: auto;
+
+    }
+    .menu-top-rools-3{
+        width: 25%;
+float: right;
+margin-top: -73px;
+    }
+    .serch{
+        position: absolute;
+        margin-top: 21px;
+        margin-left: -175px;
+        border-radius: 21px;
+        background-color: rgb(232,235,242);
+        width: 122px;
+        box-shadow: 1px 1px 5px 0.2px;
+        border: aliceblue;
+        height: 21px;
+        padding-left: 20px;
+    }
+    .img-serch{
+        width: 13px;
+        position: absolute;
+        margin-top: 27px;
+        margin-left: -169px;
+       
+
+    }
+    .font-18{
+        font-size: 18px;
+    }
+
+    .p-center{
+        margin-top: -14px;
+color: #00000061;
+font-size: 12px;
+    }
+
+    .img-data-moon-1{
+        width: 20px;
+    }
+    .img-data-moon-2{
+        width: 20px;
+    }
+    .display-ruby{
+        display: block ruby;
+    }
+    .div-data-moon-select{
+overflow-x: hidden;
+    }
+    .margin-5{
+margin-right: 5px;
+cursor: pointer;
+    }
+    .margin-5:hover{
+       
+        background: #ff6000;
+border-radius: 69px;
+width: 52px;
+height: 23px;
+color: rgb(232,235,242);
+    }
+    .margin-top-5-2{
+        position: absolute;
+        margin-top: -14px;
+        background: #b9b9b959;
+        border-radius: 100%;
+        margin-left: -41px;
+    }
+    .margin-top-5-2:hover{
+        position: absolute;
+        margin-top: -14px;
+        background: #ffffff59;
+        border-radius: 100%;
+        margin-left: -41px;
+    }
+    .margin-top-5-1{
+        position: absolute;
+        margin-top: -14px;
+        background: #b9b9b959;
+        border-radius: 100%;
+        margin-left: 14px;
+    }
+    .margin-top-5-1:hover{
+        position: absolute;
+        margin-top: -14px;
+        background: #ffffff59;
+        border-radius: 100%;
+        margin-left: 14px;
+    }
+    .div-menu-top-down{
+        width: 100%;
+height: 76px;
+background-color: rgba(253, 251, 250, 0.301);
+border-radius: 0px 0px 45px 45px;
+box-shadow: 1px 1px 1px 1px #0000ff26;
+    }
+    .weak-main-text{
+        width: 13.5%;
+        text-align: center;
+        color: #00000063;
+        height: 66%;
+        margin-right: 3px;
+        padding-top: 26px;
+        cursor: pointer;
+    }
+    .weak-main-text:hover{
+        color: seagreen;
+      
+    }
+    .data-table-down{
+        width: 100%;
+height: 376px;
+background-color: rgb(232,235,242);
+border-radius: 0px 0px 45px 0px;
+margin-top: 15px;
+box-shadow: 1px -3px 3px 3px #dbe3ff;
+    }
+
+    table, th{
+        border: 1px solid rgba(139, 139, 139, 0.349);
+        border-collapse: collapse;
+        padding: 28px;
+        border-bottom: honeydew;
+border-right: aliceblue;
+    }
+    .day-data-table-text{
+        position: absolute;
+font-size: 9px;
+margin-left: -11px;
+background-color: rgb(232,235,242);
+border-radius: 12px;
+width: 80px;
+height: 14px;
+margin-top: 2px;
+border: darkgray;
+box-shadow: 1px 1px 1px 1px rgb(211, 213, 218);
+    }
+  
+    .medall{
+        
+        width: 409px;
+        height: 313px;
+        background-color: rgb(232,235,242);
+        position: absolute;
+        border: 1px solid;
+        margin-left: 451px;
+        margin-top: -60px;
+        text-align: center;
+    }
+    .img-medall{
+        width: 66px;
+margin-top: 21px;
+    }
+    .margin-top-10{
+margin-top: 10px;
+    }
+    .data-roz-mah-sall{
+        width: 72px;
+text-align: center;
+margin-top: 10px;
+    }
+
+    .click-mockapi{
+        width: 210px;
+margin: auto;
+    margin-top: auto;
+margin-top: 10px;
+    }
+    .exit{
+        position: absolute;
+    }
+    .img-exit{
+        width: 24px;
+height: 24px;
+margin: 5px;
+cursor: pointer;
+    }
+    .z-index-90{
+        z-index: 90;
+    }

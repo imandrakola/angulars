@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link rel="stylesheet" href="/w3css/4/w3.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="json/json.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/scriptss.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="userCtrl">
+
+   
+
+
+<div class="div-main" >
+
+    <div class="main-right">
+        <div class="div-images">
+            <img class="img-admin" src="images/img.png"/>
+            <h1>{{carname}}</h1><br/><br/>
+            <h2>{{name}}</h2>
+        </div>
+     
+        <hr/>
+
+        <div  class="div-right-main2">
+
+            <button ng-click="editUser('new')" class="button">
+                <div class="circle-add-a-task">+</div>
+                {{button}}
+            </button>
+
+            <form   ng-hide="hideform"  id="medall" class="medall z-index-90">
+                <div class="exit">
+                    <img onclick="exitfunction()" class="img-exit" src="images/close-x-icon-8.png" />
+                </div>
+            <img class="img-medall" src="images/shape-medal-31818.png" />
+            <br/>
+               <input  class="margin-top-10" type="text" placeholder="عنوان">
+            <div>
+                <input  class="data-roz-mah-sall" type="text" placeholder="روز">
+                <input  class="data-roz-mah-sall" type="text" placeholder="ماه">
+                <input  class="data-roz-mah-sall" type="text" placeholder="سال">
+            </div>
+            <button class="button click-mockapi">click</button>
+            </form>
+
+
+
+            
+            <div class="div-radio-and-text"><input type="radio"/><p>{{radioname1}}</p></div>
+            <div class="div-radio-and-text"><input type="radio"/><p>{{radioname2}}</p></div>
+            <div class="div-radio-and-text"><input type="radio"/><p>{{radioname3}}</p><br></div>
+            <div class="text-child-menu-left"><p class="red">{{radioname11}}</p></div>
+            <div class="div-radio-and-text"><input type="radio"/><p>{{radioname4}}</p></div>
+            <div class="div-radio-and-text"><input type="radio"/><p>{{radioname5}}</p></div>
+            <div class="text-child-menu-left"><p>{{radioname12}}</p></div>
+        </div>
+
+        <div class="div-right-main3">
+          <p class="margin17"> {{Complated}}</p>
+          <div class="circle-dive-arrow"><img class="image-arow-menu-left" src="images/down-arrow.png"/></div>
+             </div>
+
+    </div>
+
+    <div class="main-left">
+
+        <div class="data-menu-top">
+            <div class="div-menu-top-right">
+
+<div class="menu-top-rools-1">
+    
+    <p class="left">{{datayear}}</p>
+</div>
+<div class="menu-top-rools-2">
+    
+    <p class=" center">{{ToDay}}</p>
+    <p class=" center p-center">{{Days}}</p>
+</div>
+<div  class="menu-top-rools-3">
+    <p class="right"><input class="serch" type="text" placeholder="serch"><img class="img-serch" src="images/serch.png" /></p>
+</div>
+
+                
+            </div>
+
+
+            <div class="div-menu-top-center center display-ruby">
+                <div class="div-data-moon-select display-ruby">
+                <img class="img-data-moon-1 margin-top-5-2" src="images/small-arrow-1.png"/>
+                <p class="margin-5" onclick="dayfunction()">{{Day}}</p>
+                <p class="margin-5" onclick="weakfunction()">{{Weak}}</p>
+                <p class="margin-5" onclick="moonfunction()">{{Moon}}</p>
+                <img class="img-data-moon-2 margin-top-5-1" src="images/small_chevron2.webp" />
+            </div>
+
+
+          
+
+
+            
+        </div>
+
+        <div class="div-menu-top-down display-ruby">
+<div class="weak-main-text">{{sun}}</div>
+<div class="weak-main-text">{{Mon}}</div>
+<div class="weak-main-text">{{Tue}}</div>
+<div class="weak-main-text">{{Wed}}</div>
+<div class="weak-main-text">{{Thu}}</div>
+<div class="weak-main-text">{{Fri}}</div>
+<div class="weak-main-text">{{Sat}}</div>
+        </div>
+
+        
+        <div class="data-table-down">
+            <table style="width: 100%;">
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th>1</th>
+                    <th>2</th>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                    <th>8</th>
+                    <th>9</th>
+                </tr>
+                <tr>
+                    <th>10</th>
+                    <th>11</th>
+                    <th>12</th>
+                    <th>13</th>
+                    <th>14</th>
+                    <th>15<div class="day-data-table-text">Buy aniverzery...</div></th>
+                    <th>16</th>
+                </tr>
+                <tr>
+                    <th>17</th>
+                    <th>18<div class="day-data-table-text">Book return Tiket...</div></th>
+                    <th>19<div class="day-data-table-text">Meet chris in the...</div></th>
+                    <th>20</th>
+                    <th>21</th>
+                    <th>22</th>
+                    <th>23</th>
+                </tr>
+                <tr>
+                    <th>24</th>
+                    <th>25</th>
+                    <th>26</th>
+                    <th>27</th>
+                    <th>28</th>
+                    <th>29</th>
+                    <th>30</th>
+                </tr>
+               
+            </table>
+        </div>
+
+    </div>
+   
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
